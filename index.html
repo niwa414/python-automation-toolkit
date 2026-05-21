@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Python Automation Toolkit - 10 Professional Scripts</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; line-height: 1.6; }
+  .container { max-width: 900px; margin: 0 auto; padding: 2rem; }
+  .hero { text-align: center; padding: 4rem 0 2rem; }
+  .hero h1 { font-size: 2.5rem; background: linear-gradient(135deg, #60a5fa, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 1rem; }
+  .hero p { font-size: 1.2rem; color: #94a3b8; max-width: 600px; margin: 0 auto; }
+  .price-tag { display: inline-block; background: #1e293b; border: 2px solid #334155; border-radius: 12px; padding: 1.5rem 3rem; margin: 2rem 0; text-align: center; }
+  .price-tag .amount { font-size: 3rem; font-weight: 800; color: #60a5fa; }
+  .price-tag .label { color: #94a3b8; font-size: 0.9rem; }
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 3rem 0; }
+  .feature { background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 1.5rem; }
+  .feature h3 { color: #93c5fd; margin-bottom: 0.5rem; font-size: 1rem; }
+  .feature p { color: #94a3b8; font-size: 0.9rem; }
+  .buy-section { text-align: center; padding: 3rem; background: #1e293b; border-radius: 12px; margin: 3rem 0; }
+  .buy-section h2 { margin-bottom: 1.5rem; }
+  .wallet-info { background: #0f172a; border-radius: 8px; padding: 1.5rem; margin: 1.5rem 0; text-align: left; }
+  .wallet-info code { display: block; word-break: break-all; color: #a78bfa; font-size: 0.85rem; margin: 0.5rem 0; }
+  .btn { display: inline-block; background: linear-gradient(135deg, #3b82f6, #8b5cf6); color: white; border: none; padding: 1rem 2rem; font-size: 1.1rem; font-weight: 600; border-radius: 8px; cursor: pointer; text-decoration: none; margin: 0.5rem; }
+  .btn:hover { opacity: 0.9; }
+  .script-list { margin: 2rem 0; }
+  .script-item { display: flex; align-items: center; padding: 0.75rem 1rem; background: #1e293b; border-radius: 6px; margin-bottom: 0.5rem; }
+  .script-item .icon { width: 32px; margin-right: 1rem; font-size: 1.3rem; }
+  .script-item .name { font-weight: 600; color: #e2e8f0; }
+  .script-item .desc { font-size: 0.85rem; color: #94a3b8; }
+  .faq { margin: 3rem 0; }
+  .faq-item { background: #1e293b; border-radius: 8px; padding: 1.5rem; margin-bottom: 1rem; }
+  .faq-item h3 { color: #93c5fd; margin-bottom: 0.5rem; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="hero">
+    <h1>Python Automation Toolkit</h1>
+    <p>10 professional-grade Python scripts to automate your everyday tasks. Zero dependencies. Ready to use.</p>
+    <div class="price-tag">
+      <div class="amount">$10</div>
+      <div class="label">One-time purchase · Lifetime updates</div>
+    </div>
+  </div>
+
+  <div class="features">
+    <div class="feature"><h3>File Organizer</h3><p>Auto-sort files by extension, date, or size</p></div>
+    <div class="feature"><h3>Batch Renamer</h3><p>Rename files in bulk with regex & templates</p></div>
+    <div class="feature"><h3>Web Scraper</h3><p>Extract tables, links, emails from any webpage</p></div>
+    <div class="feature"><h3>Data Converter</h3><p>Convert between CSV, JSON, JSONL & XML</p></div>
+    <div class="feature"><h3>API Client</h3><p>Rate-limited HTTP client with retry & caching</p></div>
+    <div class="feature"><h3>Log Analyzer</h3><p>Parse server logs and generate reports</p></div>
+    <div class="feature"><h3>PDF Generator</h3><p>Create PDFs from text & markdown (stdlib only)</p></div>
+    <div class="feature"><h3>Email Sender</h3><p>Templated emails with CSV contact lists</p></div>
+    <div class="feature"><h3>Image Processor</h3><p>Batch resize, convert, and watermark images</p></div>
+    <div class="feature"><h3>Config Manager</h3><p>Manage JSON, YAML & TOML config files</p></div>
+  </div>
+
+  <div class="buy-section">
+    <h2>Get Instant Access</h2>
+    <p style="color:#94a3b8;margin-bottom:1rem;">Send $10.00 USDC via <strong>Base</strong> or <strong>Arbitrum</strong> network, then email the transaction hash for instant delivery.</p>
+    <div class="wallet-info">
+      <p style="color:#94a3b8;">Send <strong style="color:#e2e8f0;">10 USDC</strong> to:</p>
+      <code>0x8990820eb766fb3bb1cc21884b62a15ff241dc4c</code>
+      <p style="color:#94a3b8;margin-top:0.5rem;">Network: Ethereum / Base / Arbitrum (USDC)</p>
+    </div>
+    <a href="mailto:niwa414@gmail.com?subject=Python%20Toolkit%20Purchase&body=Transaction%20hash:%0A%0APlease%20send%20the%20download%20link." class="btn">Send Payment & Email TX Hash</a>
+  </div>
+
+  <div class="script-list">
+    <h2 style="margin-bottom:1rem;">What's Included</h2>
+    <div class="script-item"><span class="icon">01</span><div><div class="name">file_organizer.py</div><div class="desc">Sort files by extension, date, or size with --dry-run preview</div></div></div>
+    <div class="script-item"><span class="icon">02</span><div><div class="name">batch_renamer.py</div><div class="desc">Regex-based batch renaming with numbering and preview</div></div></div>
+    <div class="script-item"><span class="icon">03</span><div><div class="name">web_scraper.py</div><div class="desc">Extract tables, links, meta tags, emails & prices from HTML</div></div></div>
+    <div class="script-item"><span class="icon">04</span><div><div class="name">data_converter.py</div><div class="desc">Convert CSV JSON JSONL XML bidirectionally</div></div></div>
+    <div class="script-item"><span class="icon">05</span><div><div class="name">api_client.py</div><div class="desc">Rate-limited API client with retry, backoff & disk cache</div></div></div>
+    <div class="script-item"><span class="icon">06</span><div><div class="name">log_analyzer.py</div><div class="desc">Parse Apache/Nginx logs with stats, charts & error sampling</div></div></div>
+    <div class="script-item"><span class="icon">07</span><div><div class="name">pdf_generator.py</div><div class="desc">Generate PDFs from markdown/text using only stdlib</div></div></div>
+    <div class="script-item"><span class="icon">08</span><div><div class="name">email_sender.py</div><div class="desc">Send templated emails via SMTP with CSV contact lists</div></div></div>
+    <div class="script-item"><span class="icon">09</span><div><div class="name">image_processor.py</div><div class="desc">Batch resize, convert, and add watermark overlays</div></div></div>
+    <div class="script-item"><span class="icon">10</span><div><div class="name">config_manager.py</div><div class="desc">CRUD operations on JSON, YAML, TOML configs with validation</div></div></div>
+  </div>
+
+  <div class="faq">
+    <h2 style="margin-bottom:1rem;">FAQ</h2>
+    <div class="faq-item"><h3>Requirements?</h3><p>Python 3.9+. All scripts use only the standard library - no pip install needed.</p></div>
+    <div class="faq-item"><h3>What do I get?</h3><p>10 well-documented Python scripts with argparse CLI, ready to run. Includes README, examples, and tests.</p></div>
+    <div class="faq-item"><h3>Can I use them commercially?</h3><p>Yes! MIT licensed. Use them in any project, personal or commercial.</p></div>
+    <div class="faq-item"><h3>How fast is delivery?</h3><p>Within 24 hours of payment confirmation. Usually much faster.</p></div>
+  </div>
+
+  <p style="text-align:center;color:#475569;padding:2rem 0;">MIT License · 30-day satisfaction guarantee</p>
+</div>
+</body>
+</html>
